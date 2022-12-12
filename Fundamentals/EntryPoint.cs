@@ -68,5 +68,19 @@
         doctor.Address = "Bhaktapur";
         doctor.phone = 9865055438;
         doctor.DoctorDetails();
+
+        FiFa worldcup2018 = new FiFa();
+        worldcup2018.host = "Russia";        
+        worldcup2018.year = new DateTime(2018, 2, 3);        
+        worldcup2018.winner = "France";        
+        worldcup2018.teams = "France, Germany, Brazil";        
+
+        FiFa worldcup2022 = new("Qatar");
+        FiFa worldcup2002 = 
+            new("Qatar", new DateTime(2002, 1, 1), 
+            "Nepal", "France, Germany");
+
+
+        var g = FiFa.Groups;
     }
 }

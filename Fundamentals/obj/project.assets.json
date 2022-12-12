@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\.NET-yewant\\Fundamentals\\Fundamentals.csproj",
+      "projectUniqueName": "E:\\New folder\\dotNET-yewant\\Fundamentals\\Fundamentals.csproj",
       "projectName": "Fundamentals",
-      "projectPath": "E:\\.NET-yewant\\Fundamentals\\Fundamentals.csproj",
+      "projectPath": "E:\\New folder\\dotNET-yewant\\Fundamentals\\Fundamentals.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "E:\\.NET-yewant\\Fundamentals\\obj\\",
+      "outputPath": "E:\\New folder\\dotNET-yewant\\Fundamentals\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
