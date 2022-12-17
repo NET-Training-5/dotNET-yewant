@@ -40,7 +40,7 @@ class Country
         Console.Write($"\n{label}");
         foreach (var x in elements)
         {
-            Console.Write(x + " ");
+            Console.Write(x + ", ");
         }
         Console.WriteLine();
 

@@ -1,3 +1,5 @@
+using System;
+
 class Method
 {
     // Simplest possible: returns nothings, takes no arguments

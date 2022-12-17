@@ -1,5 +1,4 @@
 using System;
-
 class FiFa
 {
     public static byte Groups = 8;

@@ -2,7 +2,7 @@
     1. Two fields
     1. Two properties: one autoimplemented, one write-only
     1. A method which prints details of objects of that class */
-
+using System;
 class Doctor
 {
     public string Name {get; set; }
