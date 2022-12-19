@@ -95,20 +95,20 @@
         // var ca = shape.GetArea();
         // var cp = shape.GetPerimeter();
 
-        // LINQ l = new();
-        // l.LearnToQuery();
+        LINQ l = new();
+        l.LearnToQuery();
 
-        IShop shop = new Nike(20, 3);
-        var quantity = shop.GetQuantity();
-        var price = shop.GetTotalPrice();
-        Console.WriteLine($"The total quantity is: {quantity}");
-        Console.WriteLine($"The total price is: {price}");
+        // IShop shop = new Nike(20, 3);
+        // var quantity = shop.GetQuantity();
+        // var price = shop.GetTotalPrice();
+        // Console.WriteLine($"The total quantity is: {quantity}");
+        // Console.WriteLine($"The total price is: {price}");
 
-        Country nation = new();
-        nation.GetAllCountries();
-        nation.GetCountriesStartingWithN();
-        nation.GetCountriesLessOrEqualThan4();
-        nation.GetCountriesToUpperCase();
+        // Country nation = new();
+        // nation.GetAllCountries();
+        // nation.GetCountriesStartingWithN();
+        // nation.GetCountriesLessOrEqualThan4();
+        // nation.GetCountriesToUpperCase();
     }
 }
 

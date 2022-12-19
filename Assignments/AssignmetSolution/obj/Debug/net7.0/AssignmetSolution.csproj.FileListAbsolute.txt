@@ -1,0 +1,15 @@
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\bin\Debug\net7.0\AssignmetSolution.exe
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\bin\Debug\net7.0\AssignmetSolution.deps.json
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\bin\Debug\net7.0\AssignmetSolution.runtimeconfig.json
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\bin\Debug\net7.0\AssignmetSolution.dll
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\bin\Debug\net7.0\AssignmetSolution.pdb
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\obj\Debug\net7.0\AssignmetSolution.csproj.AssemblyReference.cache
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\obj\Debug\net7.0\AssignmetSolution.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\obj\Debug\net7.0\AssignmetSolution.AssemblyInfoInputs.cache
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\obj\Debug\net7.0\AssignmetSolution.AssemblyInfo.cs
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\obj\Debug\net7.0\AssignmetSolution.csproj.CoreCompileInputs.cache
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\obj\Debug\net7.0\AssignmetSolution.dll
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\obj\Debug\net7.0\refint\AssignmetSolution.dll
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\obj\Debug\net7.0\AssignmetSolution.pdb
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\obj\Debug\net7.0\AssignmetSolution.genruntimeconfig.cache
+E:\New folder\dotNET-yewant\Assignments\AssignmetSolution\obj\Debug\net7.0\ref\AssignmetSolution.dll
