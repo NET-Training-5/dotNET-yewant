@@ -17,7 +17,4 @@ public class NumberController : Controller
     {
         return View((from, to));
     }
-
-
-
 }

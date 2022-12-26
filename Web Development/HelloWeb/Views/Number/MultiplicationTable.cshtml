@@ -1,14 +1,11 @@
-
 @model int
 
 @{
     int number = Model;
 }
-    <h2>Multiplication table of @number:</h2>
-    @for (int i = 1; i <= 10; i++)
-    {
-        var p = number * i;
-        <pre>@number * @i = @p</pre>
-    }
-
-
+<h2>Multiplication table of @number:</h2>
+@for (int i = 1; i <= 10; i++)
+{
+    var p = number * i;
+    <pre>@number * @i = @p</pre>
+}
