@@ -1,0 +1,20 @@
+@model (int, int)
+
+@{
+    (int from, int to) = Model;
+}
+<div class="container">
+    <div class="row">
+<h2>Multiplication table of from @from to @to:</h2>
+@for (int i = from; i <= to; i++)
+{
+<div class="col">
+    @for (int j = 1; j <= 10; j++)
+    {
+        var p = i * j;
+        <pre>@i * @j = @p</pre>
+    }
+</div>
+}
+</div>
+</div>

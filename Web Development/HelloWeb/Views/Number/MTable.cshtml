@@ -1,0 +1,25 @@
+
+
+    <h2>Multiple of 3 and 5 less than 50:</h2>
+    @for (int i = 1; i < 50; i++)
+    {
+        if (i % 3 == 0 && i % 5 == 0)
+        {
+            <h3>@i</h3>
+        }
+    }
+
+    <h2>Multiplication table of 19:</h2>
+    @for (int i = 1; i <= 10; i++)
+    {
+        int multiply = i * 19;
+        <h5>19 * @i = @multiply</h5>
+    }
+
+
+    <h2>Counting from 1 to 100:</h2>
+    @for (int i = 1; i <= 100; i++)
+    {
+        <h3>@i</h3>
+    }
+
