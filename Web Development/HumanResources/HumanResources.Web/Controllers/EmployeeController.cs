@@ -28,8 +28,40 @@ namespace HumanResources.Web.Controllers
 
             return RedirectToAction(nameof(Index));
             }
-        
- 
+
+        public IActionResult Edit(int Id)
+            {
+            var employee = db.Employees.Find(Id);
+            return View(employee);
+
+            }
+
+        [HttpPost]
+        public IActionResult Edit(Employee employee)
+            {
+            db.Employees.Update(employee);
+            db.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
+            }
+
+        public IActionResult Delete(int Id)
+            {
+            var employee = db.Employees.Find(Id);
+            return View(employee);
+
+            }
+
+        [HttpPost]
+        public IActionResult Delete(Employee employee)
+            {
+
+            db.Employees.Remove(employee);
+            db.SaveChanges();
+
+            return RedirectToAction(nameof(Index));
+            }
+
         }
 
 
