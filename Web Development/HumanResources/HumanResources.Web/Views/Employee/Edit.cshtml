@@ -3,8 +3,9 @@
 @model Employee
 
 <div class="card p-5 shadow">
-<form action="/employee/update/Id" method="post" class="row">
-    <div class="col-md-6 mb-3">/-
+<form action="/employee/edit" method="post" class="row">
+    <input type="hidden" asp-for=Id/>
+    <div class="col-md-6 mb-3">
         <label asp-for=Name class="form-label"></label>
         <input asp-for=Name class="form-control">
     </div>
@@ -53,8 +54,8 @@
         <input asp-for=JoinDate class="form-control">
     </div>
     <div class="col-md-6">
-        <button type="submit" class="btn btn-primary">Update</button>
-        <button type="reset" class="btn btn-warning">Clear</button>
+        <a href="/employee/index" class="btn btn-success">Cancel</a>
+        <button type="submit" class="btn btn-warning">Update</button>
     </div>
 </form>
 </div>
