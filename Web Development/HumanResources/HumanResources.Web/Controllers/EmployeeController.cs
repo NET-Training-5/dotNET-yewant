@@ -1,5 +1,6 @@
 ﻿using HumanResources.Web.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.Linq;
 
@@ -17,6 +18,10 @@ namespace HumanResources.Web.Controllers
         }
         public IActionResult Add()
             {
+            var departments = db.Departments.Select(x => new SelectListItem { Text = x.Name, Value = x.Name }).ToList();
+            ViewData["departments"] = departments;
+            var designations = db.Designations.Select(x => new SelectListItem { Text = x.Name, Value = x.Name }).ToList();
+            ViewData["designations"] = designations;
             return View();
             }
 
